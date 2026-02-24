@@ -1,7 +1,7 @@
 pkgname = rtp2httpd
 appname = rtp2httpd
 pkgver = 20251127
-pkgrel = r1
+pkgrel = 2
 os = openwrt
 platform = amd64
 platform = arm64
@@ -19,7 +19,7 @@ license = GPL-2.0-only
 visibility = open
 packager = pica-pack-rs
 type = luci
-luci = js2
+luci = lua1
 pkgmgr = opkg
 app = rtp2httpd
 app = luci-app-rtp2httpd
